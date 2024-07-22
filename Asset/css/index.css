@@ -1,3 +1,4 @@
+/*reset navigateur*/
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@
 /*$primary: #F4C03B;
 $secondary: #59B9C7;*/
 
+/* mise en page du header*/
 header {
   width: 100%;
   height: 100vh;
@@ -22,6 +24,7 @@ header {
   background-size: cover;
 }
 
+/* positionnement du message d'accroche*/
 .accroche {
     position: relative;
     margin: 10%;
@@ -29,6 +32,7 @@ header {
     color: rgb(0, 0, 0);
   }
   
+  /*navigation anime a la souris*/
   .nav-link:hover {
     border: dashed #F4C03B;
     border-radius: 10%;
@@ -39,9 +43,8 @@ header {
     border-radius: 10%;
     text-align: center;
   }
-
+/*barre de recherche*/
   .voyage{ 
-
     position:relative;
     padding: 10px;
     width: 1100px;
@@ -69,7 +72,7 @@ header {
     border-color: #59b8c759;
     text-shadow: #F4C03B 1px 0 10px;
   }
-
+/*barre de devis*/
   .devis{ 
     margin: 40px;
     width: 1080px;
@@ -82,8 +85,7 @@ header {
     align-items: center;
       
   }
-
-  
+/* les cartes carrousel*/
 .box{
 display: flex;
 align-items: flex-start;
@@ -106,7 +108,7 @@ margin: 30px;
 .carousel-indicators {
   background-color: #59b8c765;
 }
-
+/* footer*/
   footer{
     width: 100%;
     height: 21vh;
@@ -126,12 +128,6 @@ margin: 30px;
     text-align: left;
   }
   
-  .musique {
-    align-items: center;
-    margin: 0;
-    volume: 0.1;
-  }
-
   .box_footer{
     display: flex;
     align-items: flex-start;
@@ -142,3 +138,10 @@ margin: 30px;
     .box :first-child{
       align-self: center;
     }
+    
+    /*integration de la musique*/
+    .musique {
+    align-items: center;
+    margin: 0;
+    volume: 0.1;
+  }
