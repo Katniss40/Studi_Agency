@@ -4,6 +4,10 @@
     border: 0;
     box-sizing: border-box;
     font-family: cursive, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    text-emphasis: none;
+    text-transform: none;
+    list-style-type: none;
 }
 
 /*$primary: #F4C03B;
@@ -33,6 +37,7 @@ header {
   ol, ul, li {
     background-color: #59b8c759;
     border-radius: 10%;
+    text-align: center;
   }
 
   .voyage{ 
@@ -62,8 +67,23 @@ header {
   .form-select {
     background-color: #59b8c759;
     border-color: #59b8c759;
+    text-shadow: #F4C03B 1px 0 10px;
   }
 
+  .devis{ 
+    margin: 40px;
+    width: 1080px;
+    height: 39px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #59b8c759;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+      
+  }
+
+  
 .box{
 display: flex;
 align-items: flex-start;
@@ -109,6 +129,7 @@ margin: 30px;
   .musique {
     align-items: center;
     margin: 0;
+    volume: 0.1;
   }
 
   .box_footer{
