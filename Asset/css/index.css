@@ -36,13 +36,14 @@ header {
   }
 
   .voyage{ 
+
     position:relative;
-    padding: 50px;
+    padding: 10px;
     width: 1100px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 200px;    
+    margin: 30px;    
   }
   
   #date {
@@ -62,3 +63,61 @@ header {
     background-color: #59b8c759;
     border-color: #59b8c759;
   }
+
+.box{
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+margin: 30px;
+}
+
+.box :first-child{
+  align-self: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  outline: black;
+  background-color: #59B9C7;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.carousel-indicators {
+  background-color: #59b8c765;
+}
+
+  footer{
+    width: 100%;
+    height: 21vh;
+    background-color: #59B9C7;
+  }
+  
+  .contact {
+    text-align: left;
+  
+  }
+  
+  .reseaux { 
+    text-align: center;
+  } 
+  
+  .mentions {
+    text-align: left;
+  }
+  
+  .musique {
+    align-items: center;
+    margin: 0;
+  }
+
+  .box_footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 30px;
+    }
+    
+    .box :first-child{
+      align-self: center;
+    }
