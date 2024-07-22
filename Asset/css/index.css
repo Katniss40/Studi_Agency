@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: cursive, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*$primary: #F4C03B;
+$secondary: #59B9C7;*/
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/Asset/images/CRITERIA-BEACH-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2 {
+    position: relative;
+    margin: 5%;
+    left: 15%;
+    color: rgb(10, 38, 63);
+  }
+  
+  .nav-link:hover {
+    border: dashed #F4C03B;
+    border-radius: 10%;
+  }
+  
+  ol, ul, li {
+    background-color: #59b8c759;
+    border-radius: 10%;
+  }
+
+  .voyage{ 
+    position:relative;
+    padding: 50px;
+    width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 200px;    
+  }
+  
+  #date {
+    width: 1000px;
+    height: 39px;
+    border-radius: 9%;
+    background-color: #59b8c759;
+    border-color: #59b8c759;
+  }
+  
+  .btn {
+    width: 200px;
+    height: 39px;
+  }
+
+  .form-select {
+    background-color: #59b8c759;
+    border-color: #59b8c759;
+  }
